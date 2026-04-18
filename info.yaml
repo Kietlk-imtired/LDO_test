@@ -1,6 +1,6 @@
 # Tiny Tapeout project information
 project:
-  title:        "LDOd18t4"      # Project title
+  title:        "CG2"      # Project title
   author:       "tuankiet"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  ""      # One line description of what your project does
@@ -15,7 +15,7 @@ project:
   uses_3v3: false       # Set to true if your project uses 3.3V (VAPWR) in addition to 1.8V (VDPWR)
 
   # Your top module name must start with "tt_um_". Make it unique by including your github username:
-  top_module:  "tt_um_LDOd18t4"
+  top_module:  "tt_um_CG2"
 
   # List your project's source files here. Source files must be in ./src and you must list each source file separately, one per line:
   source_files:        
