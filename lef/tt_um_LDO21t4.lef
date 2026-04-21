@@ -1,0 +1,30 @@
+MACRO sky130_fd_pr__res_xhigh_po_0p35_RQPABB
+  CLASS BLOCK ;
+  FOREIGN sky130_fd_pr__res_xhigh_po_0p35_RQPABB ;
+  ORIGIN 1.570 5.710 ;
+  SIZE 3.140 BY 11.420 ;
+  OBS
+      LAYER pwell ;
+        RECT -1.835 -5.975 1.835 5.975 ;
+      LAYER li1 ;
+        RECT -1.655 5.625 1.655 5.795 ;
+        RECT -1.655 -5.625 -1.485 5.625 ;
+        RECT -1.005 2.985 -0.655 5.145 ;
+        RECT -0.175 2.985 0.175 5.145 ;
+        RECT 0.655 2.985 1.005 5.145 ;
+        RECT -1.005 -5.145 -0.655 -2.985 ;
+        RECT -0.175 -5.145 0.175 -2.985 ;
+        RECT 0.655 -5.145 1.005 -2.985 ;
+        RECT 1.485 -5.625 1.655 5.625 ;
+        RECT -1.655 -5.795 1.655 -5.625 ;
+      LAYER met1 ;
+        RECT -0.955 3.010 -0.705 5.115 ;
+        RECT -0.125 3.010 0.125 5.115 ;
+        RECT 0.705 3.010 0.955 5.115 ;
+        RECT -0.955 -5.115 -0.705 -3.010 ;
+        RECT -0.125 -5.115 0.125 -3.010 ;
+        RECT 0.705 -5.115 0.955 -3.010 ;
+  END
+END sky130_fd_pr__res_xhigh_po_0p35_RQPABB
+END LIBRARY
+
