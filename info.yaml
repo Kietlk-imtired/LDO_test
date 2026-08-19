@@ -1,13 +1,20 @@
 # Tiny Tapeout project information
 project:
   title:        "LDO"      # Project title
+<<<<<<< HEAD
   author:       "TuanKiet"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "analog LDO"      # One line description of what your project does
+=======
+  author:       "tuankiet"      # Your name
+  discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
+  description:  ""      # One line description of what your project does
+>>>>>>> 6968a3b952ffbcb9bfaa30c64952e0775daf3157
   language:     "Analog" # other examples include Verilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
   # How many tiles your design occupies? A single tile is about 167x108 uM.
+<<<<<<< HEAD
   tiles: "2x2"          # Valid values for analog projects: 1x2, 2x2
 
   # How many analog pins does your project use?
@@ -16,6 +23,16 @@ project:
 
   # Your top module name must start with "tt_um_". Make it unique by including your github username:
   top_module:  "tt_um_template"
+=======
+  tiles: "1x2"          # Valid values for analog projects: 1x2, 2x2
+
+  # How many analog pins does your project use?
+  analog_pins: 2        # Valid values: 0 to 6
+  uses_3v3: false       # Set to true if your project uses 3.3V (VAPWR) in addition to 1.8V (VDPWR)
+
+  # Your top module name must start with "tt_um_". Make it unique by including your github username:
+  top_module:  "tt_um_LDO23t4"
+>>>>>>> 6968a3b952ffbcb9bfaa30c64952e0775daf3157
 
   # List your project's source files here. Source files must be in ./src and you must list each source file separately, one per line:
   source_files:        
@@ -35,7 +52,11 @@ pinout:
   ui[7]: ""
 
   # Outputs
+<<<<<<< HEAD
   uo[0]: "VGND"
+=======
+  uo[0]: ""
+>>>>>>> 6968a3b952ffbcb9bfaa30c64952e0775daf3157
   uo[1]: ""
   uo[2]: ""
   uo[3]: ""
@@ -55,11 +76,19 @@ pinout:
   uio[7]: ""
 
   # Analog pins - make sure to also set "analog_pins" above, else the pins won't be connected
+<<<<<<< HEAD
   ua[0]: "OUT3"
   ua[1]: "OUT2"
   ua[2]: "VDD"
   ua[3]: "Vref"
   ua[4]: "OUT1"
+=======
+  ua[0]: ""
+  ua[1]: ""
+  ua[2]: ""
+  ua[3]: ""
+  ua[4]: ""
+>>>>>>> 6968a3b952ffbcb9bfaa30c64952e0775daf3157
   ua[5]: ""
 
 # Do not change!
