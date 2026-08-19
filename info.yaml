@@ -25,9 +25,9 @@ project:
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
   # Inputs
-  ui[0]: ""
-  ui[1]: ""
-  ui[2]: ""
+  ui[0]: "CLK1"
+  ui[1]: "CLKB"
+  ui[2]: "VDPWR"
   ui[3]: ""
   ui[4]: ""
   ui[5]: ""
@@ -36,7 +36,7 @@ pinout:
 
   # Outputs
   uo[0]: "VGND"
-  uo[1]: ""
+  uo[1]: "VOUTP"
   uo[2]: ""
   uo[3]: ""
   uo[4]: ""
@@ -60,7 +60,7 @@ pinout:
   ua[2]: "VDD"
   ua[3]: "Vref"
   ua[4]: "OUT1"
-  ua[5]: ""
+  ua[5]: "VOUTN"
 
 # Do not change!
 yaml_version: 6
