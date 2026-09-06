@@ -35,7 +35,7 @@ pinout:
   ui[7]: ""
 
   # Outputs
-  uo[0]: ""
+  uo[0]: "OUT+"
   uo[1]: ""
   uo[2]: ""
   uo[3]: ""
@@ -56,11 +56,11 @@ pinout:
 
   # Analog pins - make sure to also set "analog_pins" above, else the pins won't be connected
   ua[0]: "OUT_LDO"
-  ua[1]: "VIN+"
-  ua[2]: "VIN-"
-  ua[3]: "Vref"
-  ua[4]: "OUT_ADC"
-  ua[5]: "VDD"
+  ua[1]: "OUT-"
+  ua[2]: "VIN+"
+  ua[3]: "VIN-"
+  ua[4]: "VDD"
+  ua[5]: "VREF"
 
 # Do not change!
 yaml_version: 6
