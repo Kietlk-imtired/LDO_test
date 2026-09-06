@@ -420,7 +420,7 @@ MACRO tt_um_SAR_ADC
     USE POWER ;
     PORT
       LAYER met4 ;
-        RECT 113.070 28.350 139.400 29.650 ;
+        RECT 17.400 10.940 19.400 218.050 ;
     END
   END VDPWR
   PIN VGND
@@ -428,7 +428,7 @@ MACRO tt_um_SAR_ADC
     USE GROUND ;
     PORT
       LAYER met4 ;
-        RECT 179.160 5.930 181.160 205.890 ;
+        RECT 179.160 0.385 181.160 205.890 ;
     END
   END VGND
   OBS
